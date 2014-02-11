@@ -1,0 +1,27 @@
+{
+  "engines": {
+    "node": ">= 0.10"
+  },
+  "name": "stomp-emitter",
+  "description": "EventEmitter like interface for a stomp client",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/connrs/node-stomp-emitter.git"
+  },
+  "main": "lib/stomp-emitter.js",
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "licenses": [
+    {
+      "type": "Apache 2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+    }
+  ],
+  "author": "connrs",
+  "dependencies": {},
+  "devDependencies": {
+    "tape": "^2.4"
+  }
+}
