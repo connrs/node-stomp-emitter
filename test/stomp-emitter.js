@@ -30,7 +30,7 @@ test('on method subscribes to queue with uid', function (t) {
   var uid = process.pid;
   var client = {
     subscribe: function (queue, headers, callback) {
-      t.equal(queue, '/queue/' + uid + '/random_task');
+      t.equal(queue, '/queue/' + uid + '%2Frandom_task');
     }
   };
   var emitter = new StompEmitter(client, uid);
